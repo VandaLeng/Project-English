@@ -8,11 +8,12 @@
 /* Navbar styles */
 
 .navbar {
-    background-color: #343a40;
+    background-color: #ffffff;
     /* Dark background color */
     transition: background-color 0.3s ease;
     /* Smooth transition for color change */
-    margin-bottom: 70px
+    margin-bottom: 70px;
+    border-bottom: 0.5px solid #000;
 }
 
 .navbar-brand img {
@@ -25,7 +26,7 @@
 /* Change navbar color on hover */
 
 .navbar:hover {
-    background-color: #495057;
+    background-color: #eeeeee;
     /* Slightly lighter on hover */
 }
 
@@ -35,7 +36,7 @@
 .navbar-nav .nav-link {
     font-family: 'Arial', sans-serif;
     font-weight: bold;
-    color: white;
+    color: rgb(0, 0, 0);
     /* Text color */
     transition: color 0.3s ease;
 }
