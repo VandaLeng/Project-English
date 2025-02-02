@@ -1,0 +1,81 @@
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 60%;
+    height: auto;
+    margin: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.card:hover img {
+    transform: scale(1.05);
+}
+
+.card-body {
+    background: #fff;
+    color: #000;
+    border-radius: 0 0 15px 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+.btn-add {
+    width: 100%;
+    border-radius: 0 0 15px 15px;
+    color: #fff;
+    background-color: #ff9f00;
+    /* Orange color */
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-add:hover {
+    background-color: #ffcc00;
+    /* Yellow color on hover */
+    transform: scale(1.02);
+}
+
+.btn-add:active {
+    background-color: #ff9f00;
+    /* Original orange on active */
+    transform: scale(0.98);
+}
+
+
+/* Additional styling for the card title and text */
+
+.card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #555;
+}
+
+.star-rating .fa {
+    color: #ffd700;
+    /* Gold color for stars */
+}
+
+.star-rating .checked {
+    color: #ffd700;
+    /* Filled star (gold) */
+}
