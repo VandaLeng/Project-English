@@ -40,8 +40,8 @@
 }
 
 .card {
-    border-left: 4px solid #f9b300;
-    border-top: 3px solid #f9b300;
+    border-left: 6px solid #a7a7a7;
+    border-top: 4px solid #00f9cf;
 }
 
 .btn-outline-success {
@@ -180,8 +180,8 @@ hr {
 }
 
 .product-card {
-    border-bottom: 2px solid #ffa200;
-    border-right: 5px solid #ffa200;
+    border-bottom: 2px solid #0073ff;
+    border-right: 5px solid #000000;
 }
 
 
