@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+       
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+        
+
+    <title>Clothes</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/guidline.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <!-- Logo Image -->
+            <a class="navbar-brand" href="index.html">
+                <img src="../images/Logo-Clothes.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="product.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Product
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="shose.html">Shoes</a></li>
+                            <li><a class="dropdown-item" href="jean.html">Jeans</a></li>
+                            <li><a class="dropdown-item" href="T-shirt.html">T-shirt</a></li>
+                            <li><a class="dropdown-item" href="sweater.html">Sweaters</a></li>
+                            <li><a class="dropdown-item" href="hoodie.html">Hoodie</a></li>
+                            <li><a class="dropdown-item" href="short-jean.html">Short Jeans</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../pages/guidline.html">Guideline</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <h1>8 Steps To A Successful Sales Strategy</h1>
+
+    <div class="container">
+        <div class="step" onclick="toggleDetail(this)">
+            <div class="step-header" style="background-color: #00c19f;">
+                <span class="step-number">01</span>
+                <span class="step-title">Identify Target Versus Actual Customers</span>
+            </div>
+            <div class="step-detail">
+                Understanding the difference between your ideal target audience and actual customers allows you to
+                refine marketing strategies for better engagement.
+            </div>
+        </div>
+
+        <div class="step" onclick="toggleDetail(this)">
+            <div class="step-header" style="background-color: #007bff;">
+                <span class="step-number">02</span>
+                <span class="step-title">Conduct A SWOT Analysis</span>
+            </div>
+            <div class="step-detail">
+                SWOT (Strengths, Weaknesses, Opportunities, and Threats) analysis helps in identifying key factors
+                affecting sales performance.
+            </div>
+        </div>
+
+        <div class="step" onclick="toggleDetail(this)">
+            <div class="step-header" style="background-color: #ffb300;">
+                <span class="step-number">03</span>
+                <span class="step-title">Streamline Sales and Marketing Activities</span>
+            </div>
+            <div class="step-detail">
+                Align sales and marketing efforts to ensure consistency in messaging, lead generation, and conversion
+                rates.
+            </div>
+        </div>
+
+        <div class="step" onclick="toggleDetail(this)">
+            <div class="step-header" style="background-color: #ff5733;">
+                <span class="step-number">04</span>
+                <span class="step-title">Identify the Sales Process</span>
+            </div>
+            <div class="step-detail">
+                Define clear steps in the sales journey, from prospecting to closing, to enhance efficiency and success
+                rates.
+            </div>
+        </div>
+
+        <div class="step" onclick="toggleDetail(this)">
+            <div class="step-header" style="background-color: #800080;">
+                <span class="step-number">05</span>
+                <span class="step-title">Get the Right Sales Team</span>
+            </div>
+            <div class="step-detail">
+                Hiring and training the right talent ensures a strong team that can effectively close deals and build
+                customer relationships.
+            </div>
+        </div>
+
+        <div class="step" onclick="toggleDetail(this)">
+            <div class="step-header" style="background-color: #ff33a6;">
+                <span class="step-number">06</span>
+                <span class="step-title">Develop the Sales Funnels</span>
+            </div>
+            <div class="step-detail">
+                A well-structured sales funnel helps in nurturing leads and increasing conversion rates.
+            </div>
+        </div>
+
+        <div class="step" onclick="toggleDetail(this)">
+            <div class="step-header" style="background-color: #2ecc71;">
+                <span class="step-number">07</span>
+                <span class="step-title">Use Sales Empowerment Solutions</span>
+            </div>
+            <div class="step-detail">
+                Leverage CRM tools, automation, and analytics to empower sales teams for better performance.
+            </div>
+        </div>
+
+        <div class="step" onclick="toggleDetail(this)">
+            <div class="step-header" style="background-color: #3498db;">
+                <span class="step-number">08</span>
+                <span class="step-title">Understand How to Handle Objections</span>
+            </div>
+            <div class="step-detail">
+                Effective objection handling builds trust and increases the chances of closing deals successfully.
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="wrapper">
+        <footer>
+            <div class="container">
+                <div class="brand">
+                    <a href="/" class="brand">
+                        <h3>CLothes Shop</h3>
+                    </a>
+                    <div class="social-media">
+                        <ul>
+                            <li>
+                                <a href="#" target="_blank" aria-label="WhatsApp">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" aria-label="Facebook" target="_blank">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" aria-label="Instagram" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" aria-label="Twitter" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="hours">
+                        <h4>Opening Hours</h4>
+                        <hr />
+                        <h5>
+                            Mon-Fri: <span>8am-5pm</span>
+                        </h5>
+                        <h5>
+                            Sat: <span>8am-1pm</span>
+                        </h5>
+                    </div>
+                </div>
+                <div class="quick-links">
+                    <h4>Navigate</h4>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-chevron-right"></i> About
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-chevron-right"></i> Services
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-chevron-right"></i> Subscription
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-chevron-right"></i> Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="our-services">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li>Web Development</li>
+                        <li>Mobile Development</li>
+                        <li>Computer Networking</li>
+                        <li>Cloud Services</li>
+                        <li>Consultancy</li>
+                    </ul>
+                </div>
+                <div class="our-contact">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li>
+                            <a href="tel:+254712345678">
+                                <i class="fas fa-phone"></i> +254 712 345 678
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:info@lexis.com">
+                                <i class="fas fa-envelope"></i> info@lexis.com
+                            </a>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>
+                                Max Hse <br />
+                                3rd Floor <br />
+                                Garden Estate Road
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="container">
+                    <p>
+                        <a href="#">Clothes Shop</a>
+                    </p>
+                    <p class="copy">
+                        &copy; Web A <span>2025~Present</span>
+                    </p>
+                    <p>All Rights Reserved</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- Add FontAwesome CDN for star icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+    <script src="../js/guideline.js"></script>
+</body>
+
+</html>
